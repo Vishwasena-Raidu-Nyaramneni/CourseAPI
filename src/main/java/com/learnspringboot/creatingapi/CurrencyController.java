@@ -18,4 +18,10 @@ public class CurrencyController
 	{	
 		return config;
 	}
+	
+	@RequestMapping("/check")
+	public String retrieveMessage()
+	{	
+		return "Hello World";
+	}
 }
