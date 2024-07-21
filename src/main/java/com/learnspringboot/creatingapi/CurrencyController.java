@@ -19,7 +19,7 @@ public class CurrencyController
 		return config;
 	}
 	
-	@RequestMapping("/check")
+	@RequestMapping(value = "/check")
 	public String retrieveMessage()
 	{	
 		return "Hello World";
